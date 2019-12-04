@@ -7,6 +7,40 @@
     <title>Hemeroteca</title>
 </head>
 <body>
-    
+    <img src="img/logo.png"/>
+    <table border="1">
+        <tr>
+            <td>
+                <h2><a href="noticia.html">Goles</a></h2>
+            </td>
+            <td>
+                <h2><a href="noticia.html">Fichajes</a></h2>
+            </td>
+            <td>
+                <h2><a href="noticia.html">Clasificación</a></h2>
+            </td>
+            <td>
+                <h2><a href="hemeroteca.html">Hemeroteca</a></h2>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <img src="img/banner.gif"/>
+    <br/>
+    <h1>Formulario</h1>
+    <form action="hemeroteca.html" method="GET">
+        Buscar: <input type="text" name="busqueda"/><br>
+        De <input type="date" name="start_date"/> a <input type="date" name="end_date"/><br>
+        Sección: <select name="secciones">
+                    <option>Goles</option>
+                    <option>Fichajes</option>
+                    <option>Clasificación</option>
+                  </select>
+        <br/>
+        <input type="submit" value="Enviar"/>
+    </form>
+    <br/>
+    <hr/>
+    <strong>Copyright &copy; 2019 — DaniSports — Daniel Fernández Rodríguez.</strong>
 </body>
 </html>
