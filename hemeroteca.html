@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hemeroteca</title>
+    <!-- Añado el nombre a la pestaña de google para que aparezca Notícia.-->
 </head>
 <body>
     <img src="img/logo.png"/>
+    <!-- Añado el logo de mi página principal.-->
     <table border="1">
+        <!-- Añado una tabla con 4 celdas con los respectivos menús de la página-->
         <tr>
             <td>
                 <h2><a href="noticia.html">Goles</a></h2>
@@ -25,22 +28,29 @@
         </tr>
     </table>
     <br/>
+    <!-- Añado un banner para la página. -->
     <img src="img/banner.gif"/>
     <br/>
     <h1>Formulario</h1>
+    <!-- Añadimos un formulario para buscar cosas en la página. -->
     <form action="hemeroteca.html" method="GET">
-        Buscar: <input type="text" name="busqueda"/><br>
-        De <input type="date" name="start_date"/> a <input type="date" name="end_date"/><br>
-        Sección: <select name="secciones">
-                    <option>Goles</option>
-                    <option>Fichajes</option>
-                    <option>Clasificación</option>
-                  </select>
+        <!-- Añado un cuadro de búsqueda de texto, seleccionar desde que fechas buscar y en que secciones buscar -->
+        Buscar:
+        <input type="text" name="busqueda" /><br/>
+        De <input type="date" name="start_date" /> a <input type="date" name="end_date" /><br/>
+        Sección:
+        <select name="secciones">
+            <option>Goles</option>
+            <option>Fichajes</option>
+            <option>Clasificación</option>
+        </select>
         <br/>
         <input type="submit" value="Enviar"/>
+        <!-- Añado un botón para enviar los datos ingresados anteriormente. -->
     </form>
     <br/>
     <hr/>
+    <!-- Añadimos una línea horizontal para hacer un diferenciador y añadimos el copyright de la página-->
     <strong>Copyright &copy; 2019 — DaniSports — Daniel Fernández Rodríguez.</strong>
 </body>
 </html>
